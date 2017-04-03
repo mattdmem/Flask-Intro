@@ -7,5 +7,5 @@ COPY . /tmp/helloworld/
 WORKDIR /tmp/helloworld/
 
 RUN pip install -U pip
-RUN pip install -r /tmp/requirements.txt
+RUN pip install -r requirements.txt
 
