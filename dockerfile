@@ -9,3 +9,8 @@ WORKDIR /tmp/helloworld/
 RUN pip install -U pip
 RUN pip install -r requirements.txt
 
+WORKDIR /app
+
+ENV MESSAGE "HelloWorld is running..."
+
+
