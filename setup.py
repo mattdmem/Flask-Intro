@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='HelloWorld',
     version='0.0',
-    packages=['performance_summary','app'],
+    packages=['app'],
     url='',
     license='',
     zip_safe=False,

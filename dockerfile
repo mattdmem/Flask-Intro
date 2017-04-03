@@ -9,7 +9,7 @@ WORKDIR /tmp/helloworld/
 RUN pip install -U pip
 RUN pip install -r requirements.txt
 
-RUN setup.py install
+RUN python setup.py install
 
 WORKDIR /app
 
